@@ -1,0 +1,143 @@
+html, body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  background-image: url(images/11abc1d3e7c9bbbeccf3d2fb92ebe312.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+}
+.navigation_bar {
+  opacity: 0.8;
+  background: #02334a;
+  top: 0;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+.navigation_links, .links {
+  vertical-align: middle;
+  margin: 4%;
+  font-size: 15px;
+  white-space: nowrap;
+  font-family: Arial Black, sans-serif;
+  text-decoration: none;
+  color: #47e6ff;
+}
+nav {
+  margin-bottom: 5px;
+}
+.conteiner {
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  outline: 10px solid rgba(199, 170, 188, 0.5);
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 7%;
+  margin-bottom: 7%;
+  justify-content: right;
+  flex-grow: 1;
+}
+.content{ /*Общий для всех элементов контента страницы*/
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Century Gothic", sans-serif;
+  flex-direction: row;
+}
+.line {
+  width: 100%;
+  font-size: 25px;
+  text-align: left;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+}
+.line:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  height: 2px;
+  background-color: #02334a;
+  position: relative;
+  margin-right: -100%;
+}
+.elements_row, .character_name {/*все фильмы с одной буквы*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-shrink: 1;
+  margin-left: 20px;
+  justify-content: space-around;
+}
+.element,.element img {/*один фильм*/
+  display: flex;
+  flex-direction: column;
+  width: 170px;
+  text-align: center;
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+  padding-bottom: 5px;
+  flex-shrink: 1;
+}
+.element img {
+  height: 261px;
+}
+.links, .list_alf { /*ссылки на главной странице*/
+  background: rgba(199, 170, 188, 0.5);
+  padding: 10px 20px;
+  font-family: "Century Gothic", sans-serif;
+  font-size: larger;
+  text-align: center;
+  display: block;
+}
+.list_alf {
+  font-size: 20px;
+  text-align: left;
+  padding-left: 0;
+  padding-right: 0;
+}
+.list_alf li {
+  display: inline;
+}
+.list_link {
+  text-decoration: none;
+  color: black;
+}
+.footer {
+  opacity: 0.8;
+  background: #02334a;
+  position: relative;
+  display: block;
+  width: 100%;
+  padding-top: 3px ;
+  padding-bottom: 4px;
+  color: #47e6ff;
+}
+/* далее стили для страниц по мультам и фильмам */
+.character_name {
+  margin-left: 0;
+  margin-right: 15px;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 250px;
+  justify-content: left;
+}
+.round {
+  border-radius: 100px;
+  width: 100px;
+  padding-right: 3px;
+  margin-bottom: 5px;
+}
+@media (max-width:750px) {
+  .conteiner{
+    flex-direction: column;
+    width: 100%;
+  }
+}

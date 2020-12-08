@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Главная страница</title>
+    <link rel="icon" href="images\disney-movies-.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style>
+      @media (max-width:750px){
+        .conteiner{
+          display: flex;
+          flex-direction: row;
+          width: 80%;
+        }
+      }
+  </style>
+  </head>
+  <body>
+    <div class="navigation_bar">
+      <nav>
+        <a class="navigation_links" href="home.html"><img style="height: 45px; margin-top: 5px;" src="images\walt_disney_PNG3.png"/></a>
+        <a class="navigation_links" href="animated_films.html" >МУЛЬТФИЛЬМЫ</a>
+        <a class="navigation_links" href="animated_series.html">МУЛЬТСЕРИАЛЫ</a>
+        <a class="navigation_links" href="films.html">ФИЛЬМЫ</a>
+        <a class="navigation_links" href="all_characters.html">ВСЕ ПЕРСОНАЖИ</a>
+      </nav>
+    </div>
+    <div class="conteiner" style="flex-grow: 3;">
+      <img style="width: 300px;flex-grow: 5;" src="images\1605952215289.png">
+      <div style="display: flex; flex-direction: column;
+      justify-content:space-around; width: 30%;
+      flex-grow: 2;">
+        <a class="links" href="animated_films.html">ИЗ МУЛЬТФИЛЬМА</a>
+        <a class="links" href="animated_series.html">ИЗ МУЛЬТСЕРИАЛА</a>
+        <a class="links" href="films.html">ИЗ ФИЛЬМА</a>
+      </div>
+    </div>
+    <div class="footer" style="position: relative; left: 0; bottom: 0;">
+      <p style="margin-left: 12%;">2020. Курсовая работа по Разработке клиентских частей интернет-ресурсов Михиной И. ИКБО-10-19</p>
+    </div>
+  </body>
+</html>
