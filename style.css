@@ -154,4 +154,8 @@ nav {
   .round {
     width: 90px;
   }
+  .element img {
+    width: 140px;
+    height: 221px;
+  }
 }
