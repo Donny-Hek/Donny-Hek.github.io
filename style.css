@@ -48,6 +48,7 @@ nav {
   padding-right: 20px;
   font-family: "Century Gothic", sans-serif;
   flex-direction: row;
+  flex-grow: inherit;
 }
 .line {
   width: 100%;
@@ -139,5 +140,12 @@ nav {
   .conteiner{
     flex-direction: column;
     width: 100%;
+  }
+  .navigation_bar {
+    display: flex;
+    flex-direction: column;
+  }
+  .navigation_links {
+    display: flex;
   }
 }
