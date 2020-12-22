@@ -147,5 +147,6 @@ nav {
   }
   .navigation_links {
     display: flex;
+    margin-left: 50px;
   }
 }
