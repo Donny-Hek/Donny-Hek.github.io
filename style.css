@@ -29,6 +29,22 @@ body {
 nav {
   margin-bottom: 5px;
 }
+@-moz-document {
+  nav {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .navigation_links {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
 .conteiner {
   width: 80%;
   margin: auto;
