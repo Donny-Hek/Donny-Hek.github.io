@@ -155,7 +155,9 @@ nav {
     width: 90px;
   }
   .element img {
-    width: 140px;
     height: 221px;
+  }
+  .element,.element img {
+    width: 140px;
   }
 }
